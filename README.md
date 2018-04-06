@@ -8,7 +8,7 @@
 2. >cd graphql-node-sqlite
 3. >npm install
 4. >cd database
-5. >node dbClient.js (This would create SQLite DB to work with project.)
+5. >node createDB.js (This would create SQLite DB to work with project.)
 6. >cd ..
 7. >npm run babelTranspile (Transpiles to es5 so that node can run with out any issues)
 8. >npm run monitor
