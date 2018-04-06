@@ -1,0 +1,7 @@
+type User {
+  id: Int!
+  name: String!
+  email: String!
+  Organisations: [Organisation!]
+  Skills: [Skill!]
+}

@@ -1,0 +1,5 @@
+type UserSkills {
+  id: Int!
+  skill: Skill!
+  endorsed_count: Int!
+}

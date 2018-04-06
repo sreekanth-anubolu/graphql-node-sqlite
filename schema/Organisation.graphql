@@ -1,0 +1,5 @@
+type Organisation {
+  id: Int!
+  name: String!
+  location: String
+}
