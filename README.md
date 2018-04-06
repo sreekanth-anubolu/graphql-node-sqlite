@@ -22,6 +22,8 @@ After all the steps
 Sample Queries to Test:
 
 ========== Query 1 =============
+
+
 {
   Organisations {
     id
@@ -30,7 +32,9 @@ Sample Queries to Test:
   }
 }
 
+
 ========== Query 2 =============
+
 
 {
   Organisations(ids: [1, 2]) {
@@ -40,7 +44,9 @@ Sample Queries to Test:
   }
 }
 
+
 ========== Query 3 =============
+
 
 {
   Skills {
@@ -49,7 +55,9 @@ Sample Queries to Test:
   }
 }
 
+
 ========== Query 4 =============
+
 
 {
 	Users(ids: [1]) {
@@ -61,10 +69,11 @@ Sample Queries to Test:
       name
   		location
     }
-    
     Skills{
       id
       name
     }
   }
 }
+
+
