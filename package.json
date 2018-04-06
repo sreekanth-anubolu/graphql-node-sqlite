@@ -7,8 +7,8 @@
     "testRegex": "tests/.*\\.test.(js|jsx)$"
   },
   "scripts": {
-    "babelWatch": "rm -rf dist/* && babel src --out-dir dist --source-maps --watch",
-    "monitor": "nodemon dist/server.js"
+    "babelTranspile": "rm -rf dist/* && babel src --out-dir dist --source-maps --watch",
+    "minotor": "nodemon dist/server.js"
   },
   "keywords": [],
   "author": "Anubolu Sreekanth <anubolusreekanth@gmail.com>",
